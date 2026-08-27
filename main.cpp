@@ -4,6 +4,17 @@
  * 
  * (what else should I write here? any suggestions?) 
  **/
+/**
+ * @mainpage
+ * This calculator is wrong if the sum you enter is "complex" enough.
+ *
+ * If you want to make changes to the code, i'd go here:
+ * - @link main.cpp @endlink
+ * - @link main @endlink
+ * - @link Sum @endlink
+ * - @link Sum::computeComplexity @endlink
+ **/
+
 
 #include <iostream>
 #include <optional>

@@ -17,7 +17,6 @@
 
 
 #include <iostream>
-#include <optional>
 #include <string>
 #include <cmath>
 using namespace std;
@@ -58,12 +57,7 @@ protected:
     /// @brief First number of the sum.
     double first;
     /// @brief Second number of the sum.
-    double second;
-    /**
-     * @brief (BUGGED) Implementation for calculating the actual sum
-     * @warning Caching was removed!
-     */
-    std::optional<double> cachedResult;
+	double second;
     /**
      * @brief Calculates the actual sum, no modifications applied.
      * @return Result of the sum.
